@@ -6,7 +6,7 @@ public class homework1 {
 
         System.out.println("Welcome to the Factorial Calculator!");
     
-         {
+        try (Scanner scanner = new Scanner(System.in)) {
             System.out.println("Please enter number n: ");
             int n = scanner.nextInt();
             System.out.println(factorial(n));
