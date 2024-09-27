@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class homework1_task3 {
 
     public static void main(String[] args) {
-         Scanner sc = new Scanner(System.in);
+         try(Scanner sc = new Scanner(System.in));
         
                 System.out.println("Please enter your namber: ");
         
