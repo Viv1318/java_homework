@@ -39,6 +39,6 @@ public class task2 {
             sb.append(String.join(",", row)).append("\n");
         }
         
-        return sb.toString();
+        return sb.toString().trim();
     }
 }
