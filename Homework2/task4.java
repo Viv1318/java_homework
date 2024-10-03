@@ -40,8 +40,8 @@ public class task4 {
                 e.printStackTrace();
             }
             try {
-                     FileWriter writer = new FileWriter("log.txt"); 
-                     writer.write(new java.util.Date().toString() + "\n");
+                     FileWriter writer = new FileWriter("log.txt", true); 
+                     writer.write(new java.util.Date().toString() + "\n" );
                      writer.write("Min: " + searchForMin(arr) + ", Max: " + searchForMax(arr) + "\n");
                      writer.close();
             
