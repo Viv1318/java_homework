@@ -15,6 +15,7 @@
 package Homework3;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 
 public class task1 {
@@ -33,6 +34,25 @@ public class task1 {
   
         }
         System.out.println(result);
-    }
+
+        // int[] result = filterNegative(arr);
+        // System.out.println(Arrays.toString(result));
+
         
+        
+    // }
+    // public static int[] filterNegative(int[] arr) {
+    //     ArrayList<Integer> result = new ArrayList<>();
+    //     for (int num : arr) {
+    //     if (num >= 0) {
+    //     result.add(num);
+    //     }
+    //     }
+    //     // Преобразуем ArrayList в массив
+    //     int[] resultArray = new int[result.size()];
+    //     for (int i = 0; i < result.size(); i++) {
+    //     resultArray[i] = result.get(i);
+    //     }
+    //     return resultArray; 
+    }
 }
